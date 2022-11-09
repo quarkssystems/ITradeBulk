@@ -1,0 +1,92 @@
+<?php
+
+namespace App\Models\History;
+
+use App\Models\Product;
+use App\Models\Support\HistoryModelSupport;
+
+class ProductHistory extends Product
+{
+    use HistoryModelSupport;
+    protected $table = "product_histories";
+
+
+    protected $fillable = [
+        'user_id',
+        'name',
+        'slug',
+        'unit',
+        'unit_name',
+        'unit_value',
+        'search_keyword',
+        'meta_title',
+        'meta_keyword',
+        'meta_description',
+        'stoc_wt',
+        'stock_of',
+        'stock_type',
+        'stock_gst',
+        'default_stock_type',
+        'subdepartment',
+        'spec_sheet_url',
+        'audited',
+        'published',
+        'has_upc',
+        'barcode',
+        'product_code',
+        'store_item_code',
+        'parent_id',
+        'variant_id',
+        'unit_barcode_link',
+        'description',
+        'manufacturer',
+        'category_group',
+        'department',
+        'category',
+        'subcategory',
+        'segment',
+        'subsegment',
+        'vat',
+        'cost',
+        'markup',
+        'autoprice',
+        'price',
+        'quantity',
+        'min_order_quantity',
+        'stock_expiry_date',
+        'packing',
+        'units_per_packing',
+        'size',
+        'unit_of_measure',
+        'size_description',
+        'height',
+        'width',
+        'depth',
+        'weight',
+        'colour',
+        'colour_variants',
+        'size_variants',
+        'product_specification',
+        'warranty',
+        'attributes',
+        'base_image',
+        'alternate_image_1',
+        'alternate_image_2',
+        'promotion_type',
+        'promotion_id',
+        'period_from',
+        'period_to',
+        'promotion_price',
+        'courier_safe',
+        'out_of_stock_lead_time',
+        'is_permanent_lead_product',
+        'product_delivery_type',
+        'brand_id',
+        'tax_id',
+        'status',
+        'updated_by',
+        'update_note',
+        'history_of',
+    ];
+
+}

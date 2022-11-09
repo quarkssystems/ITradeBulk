@@ -1,0 +1,1 @@
+{!! Form::checkbox('quick_action_data[]', $datum->uuid, null, ['class' => 'quick_action_item_select']) !!} &nbsp;

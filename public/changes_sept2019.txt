@@ -1,0 +1,14 @@
+Changes need to be done
+Mising product should to show Ex : 10 out of 8 on select supplier page below the logo
+Before checkout is should show price for both pickup and delivery : Pickup - Delivery must come before checkout
+Done: Front end Design integration
+
+Order processing - Backend
+Product Inventory management
+
+Done - Wallet : EFT OR Cash Deposit with unique user id with ref.
+- Every payment transcation must approve by admin before deposit in wallet
+Pending/approved/cancel
+
+Delivery order must go first come first serve
+Determination to be display is 80% of availability then after price

@@ -1,0 +1,18 @@
+#map-canvas .centerMarker {
+    position: absolute;
+    /*url of the marker*/
+    background: url("../../images/map-marker-30x30.png") no-repeat;
+    /*center the marker*/
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    /*fix offset when needed*/
+    margin-left: -10px;
+    margin-top: -34px;
+    /*size of the image*/
+    height: 30px;
+    width: 31px;
+    cursor: pointer;
+}
+.map-location-search-box{width: 300px; margin-top: 8px}
+/*#map-canvas * {box-sizing: content-box;}*/

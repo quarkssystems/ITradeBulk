@@ -1,0 +1,11 @@
+- 1 ton min order
+- order processing
+availability,chepest price,missing product count ,near by area
+- pallet management
+- logisctics
+- picup with verification doc ,
+- import , export file format for supplier to update price and stock and also need to fins easy way to update stock and price for supplier
+- stock validation remove from the supplier popup.
+- front end work
+- other work check yourside ...
+Thanks
